@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>RandomCPP</id>
+		<version>1.0.0</version>
+		<authors>Ben Schneider</authors>
+		<owners>Ben Schneider</owners>
+
+		<summary>Modern C++ random helper library</summary>
+
+		<projectUrl>https://github.com/Ben-Scr/RandomCPP</projectUrl>
+
+		<tags>Random;CPP;Library;</tags>
+
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>A C++ random utility library</description>
+		<icon>icon.png</icon>
+		<readme>README.md</readme>
+		<license type="file">LICENSE.txt</license>
+	</metadata>
+
+	<files>
+		<file src="Build\RandomCPP.lib" target="Lib\Native" />
+		<file src="RandomCPP\Include\*.hpp" target="Build\Native\Include" />
+		<file src="RandomCPP.props" target="Build\Native" />
+		
+		<file src="icon.png" target="" />
+		<file src="README.md" target="" />
+		<file src="LICENSE.txt" target="" />
+	</files>
+</package>
